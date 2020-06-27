@@ -21,6 +21,7 @@ extern EFI_GUID gAppleBlessedSystemFileInfoGuid;
 extern EFI_GUID gAppleBlessedSystemFolderInfoGuid;
 extern EFI_GUID gAppleBootPolicyProtocolGuid;
 extern EFI_GUID gAppleVendorVariableGuid;
+extern EFI_GUID gAppleBeepGenProtocolGuid; 
 
 extern const CHAR8 *gEfiCallerBaseName;
 extern EFI_GUID gEfiGraphicsOutputProtocolGuid;
@@ -58,5 +59,6 @@ extern EFI_GUID gEfiSmbiosTableGuid;
 extern EFI_GUID gOcVendorVariableGuid;
 extern EFI_GUID gOcCustomSmbios3TableGuid;
 extern EFI_GUID gOcCustomSmbiosTableGuid;
+extern EFI_GUID gOcAudioProtocolGuid;
 
 #endif // OC_USER_GLOBAL_VAR_H
